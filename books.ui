@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1039</width>
+    <height>145</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">fonr-size: 100px;</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>5</number>
+   </property>
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>5</number>
+   </property>
+   <property name="rightMargin">
+    <number>5</number>
+   </property>
+   <property name="bottomMargin">
+    <number>5</number>
+   </property>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(27, 29, 35);
+border-radius: 35px;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius: 20px</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>9</number>
+         </property>
+         <property name="leftMargin">
+          <number>9</number>
+         </property>
+         <property name="topMargin">
+          <number>9</number>
+         </property>
+         <property name="rightMargin">
+          <number>9</number>
+         </property>
+         <property name="bottomMargin">
+          <number>9</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="nazv_2">
+           <property name="styleSheet">
+            <string notr="true">Qlabel {
+background-color: none;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>9</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>9</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="styleSheet">
+            <string notr="true">border-radius: 30px;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QPushButton" name="to_fav">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>-10</y>
+              <width>81</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {	
+	
+	background-image: url(:/newPrefix/16x16/cil-heart.png);
+	background-position:  center center;
+    background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(32, 31, 30);
+	padding-right: 60px;
+}
+QPushButton:hover {
+	background-color: rgb(33, 37, 43);
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="to_want_to_read">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>-10</y>
+              <width>81</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {	
+	
+	background-image: url(:/newPrefix/16x16/cil-clock.png);
+	background-position:  center center;
+    background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(32, 31, 30);
+	padding-right: 60px;
+}
+QPushButton:hover {
+	background-color: rgb(33, 37, 43);
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="nazv">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>-50</y>
+              <width>1021</width>
+              <height>50</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font-family: &quot;Times New Roman&quot;;
+font-size: 20px;
+color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="read">
+            <property name="geometry">
+             <rect>
+              <x>350</x>
+              <y>-10</y>
+              <width>81</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {	
+	background-image: url(:/newPrefix/16x16/cil-check-alt.png);
+	background-position:  center center;
+    background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(32, 31, 30);
+	padding-right: 60px;
+}
+QPushButton:hover {
+	background-color: rgb(33, 37, 43);
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="delete_2">
+            <property name="geometry">
+             <rect>
+              <x>460</x>
+              <y>-10</y>
+              <width>81</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {	
+	background-image: url(:/newPrefix/16x16/cil-minus.png);
+	background-position:  center center;
+    background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(32, 31, 30);
+	padding-right: 60px;
+}
+QPushButton:hover {
+	background-color: rgb(33, 37, 43);
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="to_windowforread">
+            <property name="geometry">
+             <rect>
+              <x>580</x>
+              <y>-10</y>
+              <width>81</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {	
+	
+	background-image: url(:/newPrefix/16x16/cil-description.png);
+	background-position:  center center;
+    background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(32, 31, 30);
+	padding-right: 60px;
+}
+QPushButton:hover {
+	background-color: rgb(33, 37, 43);
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="to_home">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>-10</y>
+              <width>81</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {	
+	
+	background-image: url(:/newPrefix/16x16/cil-home.png);
+	background-position:  center center;
+    background-repeat: no-repeat;
+	border: none;
+	background-color: rgb(32, 31, 30);
+	padding-right: 60px;
+}
+QPushButton:hover {
+	background-color: rgb(33, 37, 43);
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>
